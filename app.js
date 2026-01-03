@@ -60,13 +60,13 @@ function render() {
 /* ---------------- NAV SCREENS ---------------- */
 function renderHome() {
   titleEl.textContent = "Batch 29 Quizzes";
-  metaEl.textContent = "Built for survival, not decoration";
+  metaEl.textContent = "Special thanks to the academic office and everybody who made or helped making the Quizzes";
 
   const card = document.createElement("div");
   card.className = "question-card home-card";
   card.innerHTML = `
     <h2>Welcome 👋</h2>
-    <p>Offline-first quizzes made for real medical students.</p>
+    <p>Offline-first, minimal quizzes engine, hope it will be useful</p>
     <div class="option primary">Start Quizzes →</div>
   `;
 
